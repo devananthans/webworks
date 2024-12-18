@@ -1,0 +1,60 @@
+.custom-navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+  height: 70px;
+}
+.nav-link {
+  font-weight: 500;
+  color: #333;
+  margin-right: 15px;
+}
+.nav-link:hover {
+  color: #28a745;
+}
+.btn-custom {
+  margin-left: 10px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #218838;
+}
+
+.custom-footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+.footer-logo img {
+  height: 60px;
+}
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+.footer-links a {
+  display: block;
+  color: #333;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #28a745;
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+.footer-bottom a {
+  color: #28a745;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
