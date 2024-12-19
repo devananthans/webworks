@@ -64,4 +64,65 @@
 }
 
 
+.category-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.category-card:hover {
+  transform: translateY(-10px);
+}
+.category-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.category-card.chess {
+  background-color: #28a745;
+  color: white;
+}
+.category-card.drawing {
+  background-color: #ffe8e8;
+  color: #d63384;
+}
+.category-card.painting {
+  background-color: #e8f8e8;
+  color: #20c997;
+}
+
+
+
+.category-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.category-card:hover {
+  transform: translateY(-10px);
+}
+.category-card i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.category-card.chess {
+  background-color: #28a745;
+  color: white;
+}
+.category-card.drawing {
+  background-color: #ffe8e8;
+  color: #d63384;
+}
+.category-card.painting {
+  background-color: #e8f8e8;
+  color: #20c997;
+}
+.category-card.soon {
+  background-color: #f9f9f9;
+  color: #6c757d;
+}
+
+
 
