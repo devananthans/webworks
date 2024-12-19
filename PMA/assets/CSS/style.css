@@ -180,15 +180,13 @@
 
 #values{
   background-color: #f7f5f2;
-  padding: 150px;
+  padding: 50px;
 }
 
 
-col-md-4, col-md-6{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-col-md-4{
-  border:2px;
-  border-color: #218838;
+.values-box{
+  border: 2px solid rgb(225, 215, 215); 
+  padding: 50px; 
+  margin: 20px 0px;
+  background-color: white; 
 }
