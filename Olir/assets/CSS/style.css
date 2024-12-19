@@ -96,7 +96,16 @@ body{
     height: 100px; 
     width: 198px;
     margin-top: 20px;
-    
-
 }
 
+#custom-footer a{
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    color: #a19fa1;
+}
+
+#custom-footer p{
+    text-align: center;
+    color: #a19fa1;
+}
