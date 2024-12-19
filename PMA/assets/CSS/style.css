@@ -1,20 +1,28 @@
+.body{
+  margin:0;
+  padding: 20px;
+}
+
+
+/*---header section ---*/
 .custom-navbar {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 10px ;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .navbar-brand img {
-  height: 70px;
-
+  height: 40px;
+  margin-bottom: 5px
 }
 .nav-link {
-  font-weight: 50px;
+  font-weight: 100px;
   color: #333;
   margin-right: 15px;
 }
 .nav-link:hover {
   color: #28a745;
 }
+
 .btn-custom {
   margin-left: 50px;
   color: #fff;
@@ -31,6 +39,7 @@
 .custom-footer {
   background-color: #f9f9f9;
   padding: 40px 20px;
+  margin-bottom: 0;
 }
 .footer-logo img {
   height: 60px;
@@ -122,4 +131,30 @@
 .category-card.soon {
   background-color: #f9f9f9;
   color: #6c757d;
+}
+
+
+
+/*----gradient-1-----*/
+#gradient-1 gradient-2{
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+
+}
+
+
+.online{
+  inset-inline:center;
+}
+
+.aboutusimg{
+  padding: 10px;
+  border-radius: 40px;
+  width: 600px;
+  height: 400px;
+  margin-top: 80px;
+
+
 }
