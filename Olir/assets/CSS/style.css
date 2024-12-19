@@ -2,20 +2,17 @@ body{
     padding: 0;
     margin: 0 ;
 }
-
+/* ------------------------- Home ---------------------------------*/
 
 /*------- Header -------*/
-#custom-header{
-
-    background-color: #f9f4f1
+.navbar{
+    background-color:#f7ac43;
 }
-
-.navbar-brand img{
-    height: 80px;
-    width: 80px;
-    margin-left: 150px;
+.nav-item a{
+    color: #1a1a1a;
+    font-size: large;
+    text-decoration: none;
 }
-
 
 
 /*-- What we Offer--*/
@@ -108,4 +105,54 @@ body{
 #custom-footer p{
     text-align: center;
     color: #a19fa1;
+}
+
+
+/* ------------------------- About us ---------------------------------*/
+.about-top h3{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: medium;
+    font-style: bold;
+
+}
+.about-top p{
+    font-weight: 500;
+    font-size: xx-large;
+    font-style: bold;
+    margin-bottom: 50px;
+
+}
+.about-top img{
+    margin-bottom: 50px;
+
+}
+.title-para p{
+    text-align: justify;
+    font-size:large;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.vission-mission{
+    margin-top: 50px;
+}
+
+.vission-mission h4{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.vission-mission p{
+    text-align: center;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+.vission-mission-icon{
+    color: #f7ac43;
+    font-size: 3rem;
 }
