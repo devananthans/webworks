@@ -191,9 +191,5 @@ courses-body h1{
   width: 350px;
   padding: 10px;
   border-radius: 20px;
-}
-
-.breadcrumb li{
-  text-align: center;
-
+  align-items: end;
 }
