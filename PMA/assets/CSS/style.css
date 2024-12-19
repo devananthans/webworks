@@ -1,20 +1,125 @@
-.box{
-    border: 5px;
-    background-color: aquamarine;
-    padding: 5px;
-
+.custom-navbar {
+  background-color: #ffffff;
+  padding: 10px ;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+  height: 70px;
 
 }
-
-.container{
-    background-color: blue;
-    border-color: aliceblue;
-    border-radius: 10px;
-
-
+.nav-link {
+  font-weight: 50px;
+  color: #333;
+  margin-right: 15px;
+}
+.nav-link:hover {
+  color: #28a745;
+}
+.btn-custom {
+  margin-left: 50px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #218838;
 }
 
-.col-3{
-    text-color: rgb(255, 255, 255);
-    padding: auto;
+
+
+
+.custom-footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+.footer-logo img {
+  height: 60px;
+}
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+.footer-links a {
+  display: block;
+  color: #333;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #28a745;
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+.footer-bottom a {
+  color: #28a745;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+
+.category-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.category-card:hover {
+  transform: translateY(-10px);
+}
+.category-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.category-card.chess {
+  background-color: #28a745;
+  color: white;
+}
+.category-card.drawing {
+  background-color: #ffe8e8;
+  color: #d63384;
+}
+.category-card.painting {
+  background-color: #e8f8e8;
+  color: #20c997;
+}
+
+
+
+.category-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.category-card:hover {
+  transform: translateY(-10px);
+}
+.category-card i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.category-card.chess {
+  background-color: #28a745;
+  color: white;
+}
+.category-card.drawing {
+  background-color: #ffe8e8;
+  color: #d63384;
+}
+.category-card.painting {
+  background-color: #e8f8e8;
+  color: #20c997;
+}
+.category-card.soon {
+  background-color: #f9f9f9;
+  color: #6c757d;
 }
