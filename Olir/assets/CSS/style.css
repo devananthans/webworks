@@ -6,22 +6,81 @@ body{
 
 /*------- Header -------*/
 #custom-header{
+
     background-color: #f9f4f1
 }
 
-.navbar-brand{ 
- margin-left: 30px;
- 
-}
-
-.navbar-brand img {
-    height: 60px;
-    width: 60px;
-    margin-top: 30px;
+.navbar-brand img{
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
 }
 
 
 
+/*-- What we Offer--*/
+#services-card{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.service-card {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 40px; /* Space inside the card */
+    margin: 10px 0; /* Space between cards */
+    background-color: #f2f7fa; /* Light background */
+    border: 40px 30px;
+    margin-bottom: 20px;
+
+}
+
+.service-icon {
+    font-size: 40px; /* Large icon */
+    color: #f7ac43; /* Blue color */
+    margin-bottom: 20px; /* Space below icon */
+}
+
+
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    margin-top: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+
+/*Where Creativity Meets Quality! start*/
+.meets{
+    padding: 100px;
+    background-color: #1a1a1a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.meets h1{
+    color: #ffffff;
+}
+
+/*-- about us start---*/
+#about-sec{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-title{
+    text-align: start;
+}
+.about-title p{
+    font-size: large;
+    text-align: justify;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
 
 /*---Footer ----*/
 
@@ -36,7 +95,7 @@ body{
 #custom-footer img{
     height: 100px; 
     width: 198px;
-    margin-top: 40px;
+    margin-top: 20px;
     
 
 }
