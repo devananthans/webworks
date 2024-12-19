@@ -140,7 +140,7 @@
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+  background-image: solid-gradient(90deg, #11998e 0%, #38ef7d 100%);
 
 }
 
@@ -157,4 +157,38 @@
   margin-top: 80px;
 
 
+}
+
+.aboutusimg{
+  padding: 10px;
+  border-radius: 40px;
+  width: 600px;
+  height: 400px;
+
+}
+
+#mission{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#mission p{
+  margin-top: 20px;
+  text-align: justify;
+ 
+}
+
+#values{
+  background-color: #f7f5f2;
+  padding: 150px;
+}
+
+
+col-md-4, col-md-6{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+col-md-4{
+  border:2px;
+  border-color: #218838;
 }
