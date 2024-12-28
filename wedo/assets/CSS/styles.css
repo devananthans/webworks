@@ -1,8 +1,55 @@
 body{
     padding: auto;
     margin: auto;
+    width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+.features-list li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.highlight {
+  font-weight: bold;
+  color:#1e2d5c;
+}
+.icon-section img {
+  max-width: 100%;
+  height: auto;
+}
+.stats {
+  margin-top: 2rem;
+}
+.stats div {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*---=========== Text slider top setion CSS ===========---*/
+.text-top h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #1e2d5c;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.text-top span{
+    font-size: 60px;
+    font-weight: 700;
+    color:#f0a61d;
+}
+
+
+
+
+
+
+
 
 /*---=========== Custom Header  setion CSS ===========---*/
 .bd-placeholder-img {
@@ -47,7 +94,7 @@ body{
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
-/*---=========== LOGIN PAGE CSS ===========---*/
+
 /*---=========== Coustom Footer Section CSS ===========---*/
 .bd-placeholder-img {
     font-size: 1.125rem;
